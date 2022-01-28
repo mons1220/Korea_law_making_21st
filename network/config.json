@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "몬스"
+  },
+  "text": {
+    "more": "21대국회 본회의 표결정보\n\n데이터 출처: \nhttps://likms.assembly.go.kr/bill/billVoteResult.do",
+    "intro": "21대국회 본회의 표결정보",
+    "title": "본회의표결정보"
+  },
+  "legend": {
+    "edgeLabel": "반대",
+    "colorLabel": "회색(의안), 유색(정당)",
+    "nodeLabel": "의원 \u0026 의안"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "소속",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 6.2,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 16
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7.1
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
